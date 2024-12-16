@@ -50,6 +50,10 @@ nav .btn{
 
 /* Media Query */
 @media screen and (max-width: 800px){
+    h1.logo{
+        font-size: 28px;
+        padding-left: 20px;
+    }
     .nav-links{
         display: none;
         flex-direction: column;
@@ -77,10 +81,7 @@ nav .btn{
 /* Mobile view */
 @media screen and (max-width: 460px){
     h1.logo{
-        
-        font-size: 20px;
-        padding: 0 50px;
-        
+        font-size: 20px; 
     }
 }
 

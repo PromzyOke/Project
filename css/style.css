@@ -187,11 +187,11 @@ header .text button{
 @media screen and (max-width: 460px){
     header{
         max-height:40vh;
-        padding: 2rem 0rem;
+        padding: 2rem 2rem;
     }
     header .image{
-        width: 200px;
-        height:250px;
+        width: 500px;
+        height:200px;
         border-radius: 10px;
     }
     header .image::before{
@@ -201,5 +201,25 @@ header .text button{
     header .image::after{
         inset: 5px;
         border-radius: 10px;
+    }
+
+    .about{
+        padding: 3rem 1rem;
+    }
+    .about img{
+        width: 150px;
+        height:150px;
+        margin-top: 3rem;
+    }
+    .about .text{
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    .about .text h1{
+        font-size: 30px;
+    }
+    .about .text p{
+        font-size: 10px;
+        width: 100%;
     }
 }
