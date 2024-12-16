@@ -184,3 +184,22 @@ header .text button{
     }
 }
 
+@media screen and (max-width: 460px){
+    header{
+        max-height:40vh;
+        padding: 2rem 0rem;
+    }
+    header .image{
+        width: 200px;
+        height:250px;
+        border-radius: 10px;
+    }
+    header .image::before{
+        width: 50px;
+        height: 130%;
+    }
+    header .image::after{
+        inset: 5px;
+        border-radius: 10px;
+    }
+}
