@@ -13,7 +13,7 @@
     
 }
 .project .items img{
-    width: 28%;
+    width: 32%;
     height: 300px;
     margin-right: 12px;
     margin-bottom: 1rem;
@@ -41,4 +41,12 @@
     .project h1{
         font-size: 35px;
     } 
+}
+@media screen and (max-width: 460px){
+    .project .items img{
+        width: 28%;
+        height: 180px;
+        border-radius: 0%;
+        border: 5px solid black;
+    }
 }
