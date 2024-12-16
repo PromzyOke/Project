@@ -125,5 +125,8 @@ iframe{
         height: 200px;
         
     }
+    .contact .info .red p{
+        font-size: 12px;
+    }
 
 }
