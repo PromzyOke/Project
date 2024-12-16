@@ -1,0 +1,44 @@
+.project{
+    padding: 2rem 3rem;
+    color: black;
+    background-color: #f4f4f4;
+}
+.project h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+.project .items{
+    position: relative;
+    overflow: hidden;
+    
+}
+.project .items img{
+    width: 32%;
+    height: 300px;
+    margin-right: 12px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    transition: all 2s;
+}
+.project .items img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 800px){
+    .project{
+        padding: 3rem 2rem;
+    }
+    .project .items img{
+        width: 30%;
+        height: 180px;
+        border-radius: 0%;
+        border: 5px solid black;
+    }
+    .project h1{
+        font-size: 35px;
+    } 
+}

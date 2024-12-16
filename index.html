@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Page</title>
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Navigation css -->
+    <link rel="stylesheet" href="./css/nav.css">
+
+    <!-- Contact css -->
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <!-- Education css -->
+    <link rel="stylesheet" href="./css/education.css">
+
+    <!-- Project css -->
+    <link rel="stylesheet" href="./css/project.css">
+
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation beginning-->
+    <nav>
+        <h1 class="logo">Web Developer</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+        <div class="btn">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" style="display: none;"></i>
+        </div>
+    </nav>
+    <!-- Navigation ending -->
+    <header>
+        <div class="image">
+            <!-- <img src="./images/Profile.jpeg" alt=""> -->
+        </div>
+        <div class="text">
+            <h1>My Portfolio</h1>
+            <p>Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Ability to translate a design into code, and work remotely and onsite. Knowledgeable in the user interface, testing, and debugging processes.</p>
+            <button>Explore Now</button>
+            <button>Play Video</button>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="text">
+                <h1>About Me</h1>
+                <p>I'm Promise Oke oginefe, a dedicated and experienced IT professional with a Computer Science background from Delta State Polytechnic Ogwashi-uku with over three years of teaching experience, specializing in MS Office Suite, Graphics Design, Web Design, Python Programming and Data science. I specialize in streamlining workflos, managing schedules, and enhancing productivity through effective communication and strong organisational skill. I am seeking a position to leverage my skills and knowledge in dynamic actual fieldwork experience.</p>
+                <button><a href="https://www.linkedin.com/in/promise-oginefe/" target="_blank">Read More</a></button>
+            </div>
+            <div class="image">
+                <img src="./images/blackprofile.jpeg" alt="">
+            </div>
+        </section>
+
+        <!-- Education section -->
+          <section id="education" class="education">
+            <h1>Educational Background</h1>
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!--=== Education 1 ===-->
+           <div class="card-container swiper-slide">
+             <div class="card-content">
+               <div class="card-image">
+                 <img src="./images/schoollogo.jpg" alt="Model 1 photo">
+                 <div class="card-name">
+                   <h3>Higher National Diploma(HND)</h3>
+                   <p>MAJOR: Computer Science</p>
+                 </div>
+               </div>
+               <p>I graduated among the top 3% best student in the department of Computer Science with 3.45 CGPA out of 4.00(Upper Credit)</p>
+             </div>
+           </div>
+           <!--=== Education 2 ===-->
+           <div class="card-container swiper-slide">
+             <div class="card-content">
+               <div class="card-image">
+                 <img src="./images/schoollogo.jpg" alt="Model 2 photo">
+                 <div class="card-name">
+                   <h3>Ordinary National Diploma(OND)</h3>
+                   <p>MAJOR: Computer Science</p>
+                 </div>
+               </div>
+               <p>I graduated in the department of Computer Science with 2.76 CGPA(Lower Credit)</p>
+             </div>
+           </div>
+           <!--=== Education 3 ===-->
+           <div class="card-container swiper-slide">
+             <div class="card-content">
+               <div class="card-image">
+                 <img src="./images/alxlogo.jpg" alt="Model 3 photo">
+                 <div class="card-name">
+                   <h3>Certified Virtual Assistant</h3>
+                   <p>MAJOR: Virtual Assistant</p>
+                 </div>
+               </div>
+               <p>I successfully completed a 2 months programme in Virtual Assistance Skills in the Digital Age</p>
+             </div>
+           </div>
+          </div>
+           </div>
+          </section>
+        <section  class="empty">
+            
+        </section>
+
+         <!-- Project section -->
+        <section id="project" class="project">
+            <h1>My Project Designs</h1>
+            <div class="items">
+                <div>
+                    <img src="./images/table.jpeg" alt="">
+                    <img src="./images/Grid1.jpeg" alt="">
+                    <img src="./images/Grid2.jpeg" alt="">
+                </div>
+                <div>
+                    <img src="./images/Car grid.jpeg" alt="">
+                    <img src="./images/simi.jpeg" alt="">
+                    <img src="./images/burger.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <div class="info">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Thera Annex, Sangotedo</p>
+                </div>
+                <div class="red">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>oginefepromise@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Phone No</h3>
+                    <p>+234 810-269-9077</p>
+                </div>
+            </div>
+            <div class="formdiv">
+                <form action="https://formsubmit.co/oginefepromise@gmail.com" method="post">
+                    <h2>Get in Touch</h2>
+                    <div><input type="text" id="name" placeholder="Name" required></div>
+                    <div><input type="email" id="email" placeholder="Email" required></div>
+                    <div>
+                        <textarea name="" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <button>Send Message</button>
+                </form>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7928.868442685913!2d3.607489477709949!3d6.466547500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9ddc67099df%3A0xdeecb85bbeffe5a3!2sThera%20Annex%20Estate!5e0!3m2!1sen!2sng!4v1733751799215!5m2!1sen!2sng" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="housing-container">
+            <div class="logo">
+                <h1>Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex voluptatem error quos, consequatur, qui laudantium eius dolore dolores placeat rem, iste non. Atque adipisci est similique reprehenderit, dignissimos tenetur.</p>  
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+        </div>
+        <marquee><h1>© All CopyRights Reserved by Promzy❤</h1></marquee>
+    </footer>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
