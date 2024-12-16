@@ -187,12 +187,13 @@ header .text button{
 @media screen and (max-width: 460px){
     header{
         max-height:40vh;
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
     header .image{
         width: 500px;
         height:200px;
         border-radius: 10px;
+        margin-top: 2rem;
     }
     header .image::before{
         width: 50px;

@@ -62,3 +62,9 @@
         font-size: 35px;
     }
 }
+
+@media screen and (max-width: 460px){
+    .education h1{
+        font-size: 30px;
+    }
+}
