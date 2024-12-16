@@ -14,8 +14,8 @@
     margin-bottom: 2rem;
 }
 .contact .info .white{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     border-radius: 5px;
     background-color: white;
     color: black;
@@ -31,8 +31,8 @@
     transition: 2s;
 }
 .contact .info .red{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     border-radius: 5px;
     text-align: center;
     padding-top: 4rem;
@@ -41,10 +41,18 @@
     background-color: rgb(211, 3, 3);
     color: white;
 }
+.contact .info .red a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
 .contact .info .red:hover{
     background-color: white;
     color: black;
     transition: 2s;
+}
+.contact .info .red a:hover{
+    color: black;
 }
 .contact .formdiv{
     display: flex;
@@ -105,6 +113,9 @@ iframe{
     .contact .info div{
         margin-right: 5px;
     }
+    .contact .info .red a{
+        font-size: 15px;
+    }
     .contact form{
         width: 100%;
         padding: 5px 3rem;
@@ -129,8 +140,8 @@ iframe{
         height: 200px;
         
     }
-    .contact .info .red p{
-        font-size: 10px;
+    .contact .info .red a{
+        font-size: 12px;
     }
 
 }
