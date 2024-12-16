@@ -21,6 +21,9 @@
     color: black;
     text-align: center;
     padding-top: 4rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    
 }
 .contact .info div:hover{
     background-color: rgb(211, 3, 3);
@@ -107,10 +110,10 @@ iframe{
 }
 
 @media screen and (max-width: 460px){
-    .project .items img{
-        width: 100px;
-        height: 180px;
-        border-radius: 0%;
-        border: 5px solid black;
+    .contact .info .red{
+        width: 150px;
+        height: 200px;
+        
     }
+
 }
