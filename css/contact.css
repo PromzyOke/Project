@@ -28,6 +28,8 @@
     transition: 2s;
 }
 .contact .info .red{
+    width: 350px;
+    height: 200px;
     background-color: rgb(211, 3, 3);
     color: white;
 }
@@ -101,7 +103,14 @@ iframe{
     }
     iframe{
         width: 100%;
-    }
+    }   
+}
 
-    
+@media screen and (max-width: 460px){
+    .project .items img{
+        width: 100px;
+        height: 180px;
+        border-radius: 0%;
+        border: 5px solid black;
+    }
 }
