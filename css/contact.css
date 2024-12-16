@@ -115,6 +115,10 @@ iframe{
 }
 
 @media screen and (max-width: 460px){
+    .contact h1{
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
     .contact .info .white{
         width: 150px;
         height: 200px;
@@ -126,7 +130,7 @@ iframe{
         
     }
     .contact .info .red p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
